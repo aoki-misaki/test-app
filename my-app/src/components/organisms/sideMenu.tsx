@@ -5,7 +5,7 @@ type Props = {};
 
 const SideMenu = (props: Props) => {
   return (
-    <a href="/">
+    <a href="http://localhost:3000">
      <Personlcon/>
      <div>社員情報管理<div/>
     </a>
