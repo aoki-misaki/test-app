@@ -5,8 +5,8 @@ type Props = {};
 
 const SideMenu = (props: Props) => {
   return (
+     <Personlcon/>
     <nav className="fixed h-[100%] w-[230px] bg-mainColor">サイドメニュー</nav>
-    <Personlcon/>
   );
 };
 
