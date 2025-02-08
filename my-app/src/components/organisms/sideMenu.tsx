@@ -6,12 +6,12 @@ type Props = {};
 const SideMenu = (props: Props) => {
   return (
     <nav className="fixed h-[100%] w-[230px] bg-mainColor">
-    <a href="/">
-    <div className= "sideMemuText">
-     <div>TestApp</div>    
-     <div> <PersonIcon/> 社員情報管理</div>
+     <a href="/">
+      <div className= "sideMemuText">
+       <<div>TestApp</div>    
+       <div> <PersonIcon/> 社員情報管理</div>
       </div>
-    </a>
+     </a>
     </nav>
   );
 };
