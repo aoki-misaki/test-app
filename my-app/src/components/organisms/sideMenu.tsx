@@ -5,7 +5,7 @@ type Props = {};
 
 const SideMenu = (props: Props) => {
   return (
-    <nav className="fixed h-[100%] w-[230px] bg-mainColor">
+    <nav className="fixed h-[100%] w-[230px] bg-mainColor text-white">
      <a href="/">
       <div className= "sideMemuText">
        <<div>TestApp</div>    
