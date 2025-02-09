@@ -7,7 +7,7 @@ const SideMenu = (props: Props) => {
   return (
     <nav className="fixed h-[100%] w-[230px] bg-mainColor">
      <a href="/">
-      <div className="text-white">
+      <div>
        <<div>TestApp</div>    
        <div> <PersonIcon/> 社員情報管理</div>
       </div>
