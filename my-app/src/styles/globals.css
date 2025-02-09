@@ -6,17 +6,3 @@ body {
   margin: 0;
   height: 100%;
 }
-
-.sideMenuText{
-  color: white;
-  font-size: 25px;
-  margin-top: 15px;
-  margin-left: 15px;
-  font-weight: bold;
-}
-
-.iconText{
-  color: white;
-  margin-top: 20px;
-  margin-left: 15px;
-}
