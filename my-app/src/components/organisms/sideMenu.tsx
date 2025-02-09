@@ -9,7 +9,7 @@ const SideMenu = (props: Props) => {
      <a href="/">
       <div>
        <div className="text-white text-3xl font-bold mt-5 ml-5">TestApp</div>
-       <div className="text-white mt-8 ml-5"> <PersonIcon/> 社員情報管理</div>
+       <div className="text-white mt-8 ml-5 items-center"> <PersonIcon/> 社員情報管理</div>
       </div>
      </a>
     </nav>
