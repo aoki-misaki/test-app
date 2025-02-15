@@ -7,7 +7,7 @@ const UserList = (props: Props) => {
   <div>
    <div>社員情報リスト</div>
    <div>全{
-    staffList.length
+    UserList.length
       }件</div>
    </div>
     );
