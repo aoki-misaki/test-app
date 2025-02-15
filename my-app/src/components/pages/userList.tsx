@@ -7,5 +7,6 @@ const UserList = (props: Props) => {
   <>全{
     staffList.langth
       }件</>
+};
 
 export default UserList;
