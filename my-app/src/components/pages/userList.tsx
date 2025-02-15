@@ -9,7 +9,7 @@ const UserList = (props: Props) => {
    <>全{
     staffList.langth
       }件</>
-   <div/>
+   </div>
 };
 
 export default UserList;
