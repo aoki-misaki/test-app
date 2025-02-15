@@ -10,7 +10,7 @@ const UserList = (props: Props) => {
     staffList.length
       }件</div>
    </div>
-    )
+    );
 };
 
 export default UserList;
