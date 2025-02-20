@@ -15,10 +15,20 @@ const UserList = () => {
 
   // TODO メインコンテンツ部分を実装したら消す
   console.log(users);
+
+  function App(){
+    const userList =[
+      {
+      id:00001,
+      name:"aoki",
+        }
+      ]
+    
   return <>
     <>利用者情報リスト</>
-    <>全{UserList.length}件</>
+    <>全{userList.length}件</>
   </>;
 };
+}
 
 export default UserList;
