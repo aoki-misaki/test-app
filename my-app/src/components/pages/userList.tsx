@@ -17,7 +17,6 @@ const UserList = () => {
   console.log(users);
   return 
     <>利用者情報リスト</>;
-    <div>全件</div>;
 };
 
 export default UserList;
