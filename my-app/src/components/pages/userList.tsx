@@ -15,7 +15,9 @@ const UserList = () => {
 
   // TODO メインコンテンツ部分を実装したら消す
   console.log(users);
-  return <>利用者情報リスト</>;
+  return <>
+    利用者情報リスト
+  </>;
 };
 
 export default UserList;
