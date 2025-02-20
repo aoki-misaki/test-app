@@ -18,7 +18,7 @@ const UserList = () => {
   return 
     <div>
     <>利用者情報リスト</>;
-    <div>全件</div>
+    <div>全件</div>;
     </div>
 };
 
