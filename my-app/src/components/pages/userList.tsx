@@ -19,7 +19,6 @@ const UserList = () => {
     <div>
     <>利用者情報リスト</>;
     <div>全{
-      UserList.length
       ｝件
     </>  
     </div>
