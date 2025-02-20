@@ -17,7 +17,7 @@ const UserList = () => {
   console.log(users);
   return <>
     <>利用者情報リスト</>
-    <>全件</>
+    <>全{UserList.length}件</>
   </>;
 };
 
