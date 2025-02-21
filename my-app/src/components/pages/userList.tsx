@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { fetchUsersData } from "@/features/users/fetchUesrsData";
 import { useAppDispatch, useAppSelector } from "@/features/store";
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 // 社員情報一覧画面
 const UserList = () => {
@@ -27,9 +26,7 @@ const UserList = () => {
     ｛
       users.map((user)=>{
        return(
-      <div><AccountCircleIcon/></div>
-      <div>id</div>
-      <div>name</div>
+      <div>users</div>
       })
       ｝
   </div>;
