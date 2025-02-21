@@ -19,10 +19,10 @@ const UserList = () => {
   
   return (
     <>
-    <div>利用者情報</div>
-    <button class="inline-flex h-12 items-center justify-center rounded-md bg-sky-500 px-6 font-medium text-neutral-50 transition active:scale-110 ">新規登録</button>
-    <div>利用者情報リスト</div>
-    <div>全{users.length}件</div>
+     <div>利用者情報</div>
+     <button className="inline-flex h-12 items-center justify-center rounded-md bg-sky-500 px-6 font-medium text-neutral-50 transition active:scale-110 ">新規登録</button>
+     <div>利用者情報リスト</div>
+     <div>全{users.length}件</div>
     ｛
       users.map((user)=>{
        return(   
