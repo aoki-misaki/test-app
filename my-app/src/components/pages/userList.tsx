@@ -34,10 +34,7 @@ const UserList = () => {
     <>利用者情報リスト</>
     <>全{userList.length}件</>
     ｛
-      userList.map(()=>{
-        return(
-        <Hello user={user}/>
-        )
+      users.map(()=>{
       })
       ｝
   </>;
