@@ -16,17 +16,7 @@ const UserList = () => {
   // TODO メインコンテンツ部分を実装したら消す
   console.log(users);
 
-[
-   {
-    id:00001,
-    name:"山田　太郎",
-   },
-  {
-    id:00002,
-    name:"佐藤　鮎美"
-  }
-   ]
-  
+
   return (
     <>
     <>利用者情報</>
