@@ -15,15 +15,17 @@ const UserList = () => {
 
   // TODO メインコンテンツ部分を実装したら消す
   console.log(users);
-  
-{
-id:00001,
-name:山田　太郎,
-},
-{
-id:00002,
-name:佐藤　鮎美,
-}  
+
+[
+ {
+ id:00001,
+ name:山田　太郎,
+ },
+ {
+ id:00002,
+ name:佐藤　鮎美,
+ }  
+]
   
   return (
     <>
@@ -32,7 +34,7 @@ name:佐藤　鮎美,
     <>利用者情報リスト</>
     <>全{users.length}件</>
     ｛
-      users.map(()=>{
+      users.map((users)=>{
         return(
       <Hello user={user}/>
       })
