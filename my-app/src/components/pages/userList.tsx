@@ -24,9 +24,9 @@ const UserList = () => {
     <div>利用者情報リスト</div>
     <div>全{users.length}件</div>
     ｛
-      users.map((users)=>{
+      users.map((user)=>{
         return(
-      <users={users}/>
+      <user={user}/>
       })
       ｝
   </div>;
