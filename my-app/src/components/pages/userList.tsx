@@ -19,6 +19,7 @@ const UserList = () => {
 
     
   return <>
+     <>利用者情報</>
     <button class="favorite styled" type="button">新規登録</button>
     <>利用者情報リスト</>
     <>全{UserList.length}件</>
