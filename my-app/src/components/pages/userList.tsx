@@ -22,7 +22,7 @@ const UserList = () => {
     <>利用者情報</>
     <button class="inline-flex h-12 items-center justify-center rounded-md bg-sky-500 px-6 font-medium text-neutral-50 transition active:scale-110 ">新規登録</button>
     <>利用者情報リスト</>
-    <>全{userList.length}件</>
+    <>全{UserList.length}件</>
     ｛
       users.map(()=>{
       })
