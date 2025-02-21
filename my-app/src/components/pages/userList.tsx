@@ -26,7 +26,9 @@ const UserList = () => {
     ｛
       users.map((user)=>{
         return(
-      <user={user}/>
+      <div></div>
+      <div>id</div>
+      <div>name</div>
       })
       ｝
   </div>;
