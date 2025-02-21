@@ -18,7 +18,7 @@ const UserList = () => {
 
   
   return (
-    <div>
+    <>
     <div>利用者情報</div>
     <button class="inline-flex h-12 items-center justify-center rounded-md bg-sky-500 px-6 font-medium text-neutral-50 transition active:scale-110 ">新規登録</button>
     <div>利用者情報リスト</div>
@@ -29,6 +29,6 @@ const UserList = () => {
       <div>users</div>
       })
       ｝
-  </div>;
+  </>;
   );
 export default UserList;
