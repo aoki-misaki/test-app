@@ -27,7 +27,7 @@ const UserList = () => {
       users.map((user)=>{
        return(   
       <div>users</div>
-      })
+      )
       ｝
   </>;
   );
