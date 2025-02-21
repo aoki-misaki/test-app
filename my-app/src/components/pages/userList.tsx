@@ -16,19 +16,13 @@ const UserList = () => {
   // TODO メインコンテンツ部分を実装したら消す
   console.log(users);
 
-  function App(){
-    const userList =[
-      {
-      id:00001,
-      name:"山田　太郎",
-        }
-      ]
+
     
   return <>
+    <button class="favorite styled" type="button">新規登録</button>
     <>利用者情報リスト</>
     <>全{userList.length}件</>
   </>;
 };
-}
 
 export default UserList;
