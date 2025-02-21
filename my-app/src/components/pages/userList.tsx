@@ -20,7 +20,7 @@ const UserList = () => {
     const userList =[
       {
       id:00001,
-      name:"aoki",
+      name:"山田　太郎",
         }
       ]
     
