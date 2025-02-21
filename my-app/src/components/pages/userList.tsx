@@ -20,7 +20,7 @@ const UserList = () => {
     
   return <>
     <>利用者情報リスト</>
-    <>全{userList.length}件</>
+    <>全{UserList.length}件</>
   </>;
 };
 
