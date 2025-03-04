@@ -10,7 +10,7 @@ export type UsersResponce = {
       // 名
       name_mei: string;
       // 姓
-      name_sai: string;
+      name_sei: string;
     }[];
   };
 };

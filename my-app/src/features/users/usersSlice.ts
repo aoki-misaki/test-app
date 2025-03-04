@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { UsersResponce, fetchUsersData } from "@/features/users/fetchUesrsData";
+import { UsersResponce, fetchUsersData } from "@/features/users/fetchUsersData";
 
 export type UsersState = {
   users: UsersResponce["data"]["users"];
